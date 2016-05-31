@@ -1,0 +1,77 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/activity_emergency_fragment" >
+
+    <!--Below activity widgets when the transparent layout is gone -->
+
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/include1" >
+    
+    <ImageButton
+        android:id="@+id/emmButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/emmButton"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="@dimen/emmButtonSize"
+        android:scaleType="fitXY"
+        android:src="@drawable/sos" />
+
+    <ImageView
+        android:id="@+id/imageViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emmButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="54dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/homescreenimage" />
+
+</RelativeLayout>
+
+	<!--Below is the transparent layout positioned at startup -->
+
+<RelativeLayout
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#bb000000"
+        android:id="@+id/top_layout">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/fortab" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/forhead" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/foremergency" />
+
+    </RelativeLayout>
+
+</FrameLayout>

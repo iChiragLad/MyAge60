@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_action_alarms" />
+
+    <TextView
+        android:id="@+id/txt_medName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="TextView"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/txt_desName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_medName"
+        android:layout_below="@+id/txt_medName"
+        android:text="TextView"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txt_minName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:text="00"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_desName"
+        android:layout_alignBottom="@+id/txt_desName"
+        android:layout_toLeftOf="@+id/txt_minName"
+        android:text=":"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/txt_hrsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_minName"
+        android:layout_alignBottom="@+id/txt_minName"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="00"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/txt_intName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_medName"
+        android:layout_alignBottom="@+id/txt_medName"
+        android:layout_toLeftOf="@+id/textViewMonth"
+        android:text="00" />
+
+    <TextView
+        android:id="@+id/textViewMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_intName"
+        android:layout_alignBottom="@+id/txt_intName"
+        android:layout_alignParentRight="true"
+        android:text="h" />
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_medName"
+        android:layout_alignBottom="@+id/txt_medName"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/txt_medName"
+        android:text="id" />
+
+</RelativeLayout>

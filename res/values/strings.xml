@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyAge60+</string>
+    <string name="actionbarSystemSettings">System Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="actionbarSettings">Settings</string>
+    <string name="first_tab">Emergency</string>
+    <string name="second_tab">Others</string>
+    <string name="title_activity_emergency_fragment">EmergencyFragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_others_fragment">OthersFragment</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="emmButtonHint">In case of Emergency Press it</string>
+    <string name="emmButton">Help Me !!</string>
+    <string name="othersReminderDispText">Reminder</string>
+    <string name="othersLocationDispText">Location Finder</string>
+    <string name="othersAttendanceDispText">Attendance</string>
+    <string name="othersNewsDispText">News</string>
+    <string name="title_activity_about">About</string>
+    <string name="actionbarAbout">About</string>
+    <string name="aboutAppName">MyAge60+</string>
+    <string name="aboutApp1">First Edition</string>
+    <string name="aboutApp2">Version 1.2.0018</string>
+    <string name="aboutApp3">Copyright © 2014</string>
+    <string name="aboutApp4">Persistent Systems, Inc</string>
+    <string name="aboutApp5">MyAge60+ is based in part on the work of the SIT team as follows :</string>
+    <string name="aboutApp6">Chirag Lad</string>
+    <string name="aboutApp7">Hitesh Gharate</string>
+    <string name="aboutApp8">Vishal Hule</string>
+    <string name="aboutApp9">Contact</string>
+    <string name="aboutApp10">chiragladn92@gmail.com</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_hint1">Hint1</string>
+    <string name="title_activity_hint2">Hint2</string>
+    <string name="title_activity_hint3">Hint3</string>
+    <string name="setup_pref_cat_1">setup_pref_cat_1</string>
+    <string name="setup_cat_title_1">User Data</string>
+    <string name="setup_pref_cat_2">setup_pref_cat_2</string>
+    <string name="setup_username_key">username</string>
+    <string name="setup_username_title">User Name</string>
+    <string name="setup_username_summ">Name which will be registered with the app.</string>
+    <string name="setup_password_key">password</string>
+    <string name="setup_password_title">Password</string>
+    <string name="setup_password_summ">Atleast six characters.</string>
+    <string name="setup_conf_password_key">confpassword</string>
+    <string name="setup_conf_password_title">Confirm Password</string>
+    <string name="setup_conf_password_summ">Same as Above.</string>
+    <string name="setup_cat_title_2">Contact Manager</string>
+    <string name="setup_user_contact_key">usercontact</string>
+    <string name="setup_user_contact_title">User Contact Number</string>
+    <string name="setup_user_contact_summ">Enter the correct 10 digit Number.</string>
+    <string name="setup_pref_contact_1_key">prefcontact1</string>
+    <string name="setup_pref_contact_1_title">Contact preference (Primary)</string>
+    <string name="setup_pref_contact_1_summ">Enter the number that needs to be contacted.</string>
+    <string name="setup_pref_contact_2_key">prefcontact2</string>
+    <string name="setup_pref_contact_2_title">Contact preference (Secondary)</string>
+    <string name="setup_pref_contact_2_summ">Will be used when primary is not reachable.</string>
+    <string name="setup_registration">Register</string>
+    <string name="setup_save">Save</string>
+    <string name="null_default"></string>
+    <string name="pref_screen">mainpref</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="alarm_tab_one">New</string>
+    <string name="alarm_tab_two">List All</string>
+    <string name="title_activity_add_alarm_fragment">AddAlarmFragment</string>
+    <string name="title_activity_list_alarm_fragment">ListAlarmFragment</string>
+    <string name="alarmMed">Enter medicine name</string>
+    <string name="alarmDes">after | before | meal | milk | water</string>
+    <string name="title_activity_attendance_dialog">AttendanceDialog</string>
+    <string name="title_activity_list_attendance">ListAttendance</string>
+    <string name="attendance">Attendance time</string>
+     <string name="actionbarShowDialog">Show Dialog</string>
+    <string name="setup_pref_at_summary">Time at which popup appears</string>
+    <string-array name="hours_array">
+        <item>2</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+        <item>24</item>
+    </string-array>
+    <string name="setup_cat_title_3">Attendance data</string>
+</resources>

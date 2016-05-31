@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="-5dp"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:gravity="fill_vertical"
+ 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OthersFragment" >
+
+    <TextView
+        android:id="@+id/othersTextview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/othersTextview3"
+        android:layout_alignLeft="@+id/othersNewsButton"
+        android:layout_alignRight="@+id/othersNewsButton"
+        android:layout_alignTop="@+id/othersTextview3"
+        android:layout_marginLeft="25dp"
+        android:text="@string/othersNewsDispText"
+        android:textSize="@dimen/otherDem1"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/othersLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/othersTextview2"
+        android:layout_alignTop="@+id/othersReminderButton"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:id="@+id/othersTextview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/othersTextview1"
+        android:text="@string/othersLocationDispText"
+        android:textAlignment="inherit"
+        android:textSize="@dimen/otherDem1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/othersTextview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/othersReminderButton"
+        android:layout_below="@+id/othersReminderButton"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:paddingLeft="5dp"
+        android:text="@string/othersReminderDispText"
+        android:textSize="@dimen/otherDem1"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/othersReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/othersAttendanceButton"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="@dimen/otherDem1"
+        android:fitsSystemWindows="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/reminder" />
+
+    <ImageButton
+        android:id="@+id/othersAttendanceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/othersTextview1"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_toLeftOf="@+id/othersTextview2"
+        android:src="@drawable/attendance" />
+
+    <ImageButton
+        android:id="@+id/othersNewsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/othersTextview2"
+        android:layout_alignTop="@+id/othersAttendanceButton"
+        android:src="@drawable/news" />
+
+    <TextView
+        android:id="@+id/othersTextview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/othersAttendanceButton"
+        android:layout_below="@+id/othersAttendanceButton"
+        android:text="@string/othersAttendanceDispText"
+        android:textSize="@dimen/otherDem1"
+        android:textStyle="bold" />
+
+</RelativeLayout>

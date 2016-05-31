@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddAlarmFragment" >
+
+    <EditText
+        android:id="@+id/medName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/alarmMed" />
+
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/medName"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/medName"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/alarmDes" />
+
+    <ImageButton
+        android:id="@+id/buttonAddAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/des"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:src="@drawable/ic_action_add_alarm" />
+
+    <CheckBox
+        android:id="@+id/repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonAddAlarm"
+        android:layout_alignLeft="@+id/buttonAddAlarm"
+        android:text="Repeat" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/repeat"
+        android:layout_alignBottom="@+id/repeat"
+        android:layout_centerHorizontal="true"
+        android:text="At interval"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/des"
+        android:layout_below="@+id/des"
+        android:layout_marginTop="24dp"
+        android:text="Set Time :"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/des"
+        android:text="hrs" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/repeat"
+        android:layout_alignTop="@+id/repeat"
+        android:layout_toLeftOf="@+id/textView1"
+        android:layout_toRightOf="@+id/textView4"
+        android:entries="@array/hours_array" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/repeat"
+        android:layout_alignLeft="@+id/repeat"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/pref_screen" >
+
+    <PreferenceCategory
+        android:key="@string/setup_pref_cat_1"
+        android:title="@string/setup_cat_title_1" >
+        <EditTextPreference
+            
+            android:key="a"
+            android:summary="@string/setup_username_summ"
+            android:title="@string/setup_username_title" />
+        <EditTextPreference
+            
+            android:key="b"
+            android:password="true"
+            android:summary="@string/setup_password_summ"
+            android:title="@string/setup_password_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/setup_pref_cat_1"
+        android:title="@string/setup_cat_title_2" >
+        <EditTextPreference
+            
+            android:key="d"
+            android:summary="@string/setup_user_contact_summ"
+            android:title="@string/setup_user_contact_title"
+            android:inputType="number" />
+        <EditTextPreference
+           
+            android:key="e"
+            android:summary="@string/setup_pref_contact_1_summ"
+            android:title="@string/setup_pref_contact_1_title"
+            android:inputType="number" />
+        <EditTextPreference
+           
+            android:key="f"
+            android:summary="@string/setup_pref_contact_2_summ"
+            android:title="@string/setup_pref_contact_2_title"
+            android:inputType="number" />
+
+    </PreferenceCategory>
+    
+    
+    
+    <PreferenceCategory
+        android:key="@string/setup_pref_cat_1"
+        android:title="@string/setup_cat_title_3" >
+
+        <EditTextPreference android:key="g" 
+            android:summary="@string/setup_pref_at_summary" 
+            android:title="@string/attendance"
+            android:inputType="number" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

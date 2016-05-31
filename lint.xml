@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_about.xml" />
+        <ignore path="res/layout/activity_add_alarm_fragment.xml" />
+        <ignore path="res/layout/activity_emergency_fragment.xml" />
+        <ignore path="res/layout/activity_others_fragment.xml" />
+        <ignore path="res/layout/newrow.xml" />
+        <ignore path="res/layout/newrowtwo.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_add_alarm_fragment.xml" />
+        <ignore path="res/layout/activity_list_alarm_fragment.xml" />
+        <ignore path="res/layout/activity_list_attendance.xml" />
+        <ignore path="res/layout/mysecrow.xml" />
+        <ignore path="res/layout/newrow.xml" />
+        <ignore path="res/layout/newrowtwo.xml" />
+    </issue>
+    <issue id="SpUsage">
+        <ignore path="res/layout/activity_add_alarm_fragment.xml" />
+        <ignore path="res/layout/mysecrow.xml" />
+        <ignore path="res/layout/newrow.xml" />
+        <ignore path="res/layout/newrowtwo.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/activity_add_alarm_fragment.xml" />
+    </issue>
+</lint>
